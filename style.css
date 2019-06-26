@@ -9,14 +9,11 @@ video {
 }
 
 .header {
-    width: ;
     position: relative;
     z-index: 1;
     color: black;
     text-align: center ;
     margin-top: -50%;
-    
-    
     font-size: 2.5em;
 }
 
