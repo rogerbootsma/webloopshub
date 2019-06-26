@@ -2,14 +2,26 @@ body {
     margin: 0px;
 }
 
+video {
+    width: 100%;
+    z-index: -1;
+    height: auto;
+}
 
+.header {
+    width: ;
+    position: relative;
+    z-index: 1;
+    color: black;
+    text-align: center ;
+    margin-top: -700px;
+    
+    
+    font-size: 3em;
+}
 
 h1 {
-    position: absolut;
-    color: grey;
-    text-align: center;
-    top: 150px;
-    left: 50%;
-    right: 50%;
+    display: inline-block;
+    z-index: 1;
 }
 
