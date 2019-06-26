@@ -5,8 +5,11 @@ body {
 
 
 h1 {
+    position: absolut;
     color: grey;
     text-align: center;
-    margin-top: 150px;
+    top: 150px;
+    left: 50%;
+    right: 50%;
 }
 
