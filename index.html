@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,14 +8,81 @@
     <title>Webloopshub Loopable background video for your website</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<video  autoplay muted loop src="testloop2.mp4"></video>
-<div class="header">
-    <H1>Under construction</H1>
-</div>
-    
-    
-</body>
-</html>
+    <header id="header">
+        <div class="topnav">
+            <a class="active" href="home">Home</a>
+        <div class="topnav-right">
+            <a href="">Services</a>
+            <a href="">Gallery</a>
+            <a href="">Pricing</a>
+        </div>
+        </div>
 
+    </header>
+
+    
+
+    <video class="videomaster" onmouseover="this.play()" onmouseout="this.pause();this.currentTime=pause;" muted loop
+        src="testloopmaster.mp4"></video>
+
+
+
+    <div id="slider">
+        <input type="radio" name="slider" id="s1">
+        <input type="radio" name="slider" id="s2">
+        <input type="radio" name="slider" id="s3" checked>
+        <input type="radio" name="slider" id="s4">
+        <input type="radio" name="slider" id="s5">
+        <label for="s1" id="slide1">
+            <video class="video" onmouseover="this.play()" onmouseout="this.pause();this.currentTime=pause;" muted loop
+                src="testloop1.mp4"></video>
+        </label>
+        <label for="s2" id="slide2">
+            <video class="video" onmouseover="this.play()" onmouseout="this.pause();this.currentTime=pause;" muted loop
+                src="testloop2.mp4"></video>
+        </label>
+        <label for="s3" id="slide3">
+            <video class="video" onmouseover="this.play()" onmouseout="this.pause();this.currentTime=pause;" muted loop
+                src="testloop3.mp4"></video>
+        </label>
+        <label for="s4" id="slide4">
+            <video class="video" onmouseover="this.play()" onmouseout="this.pause();this.currentTime=pause;" muted loop
+                src="testloop4.mp4"></video>
+        </label>
+        <label for="s5" id="slide5">
+            <video class="video" onmouseover="this.play()" onmouseout="this.pause();this.currentTime=pause;" muted loop
+                src="testloop5.mp4"></video>
+        </label>
+    </div>
+
+
+    <footer class="footer">
+
+        <div class="bottomnav">
+            <a class="active" href="home">webloopshub@gmail.com</a>
+        <div class="bottom-right">
+            <a href="">About</a>
+            <a href="">Contact</a>
+        </div>
+        </div>
+
+    </footer>
+
+    <!--<div class="header">
+    <H1>Under construction</H1>
+</div>-->
+
+    <!--https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label-->
+    <!--https://stackoverflow.com/questions/26778714/video-play-on-hover-->
+    <!--https://ctrlq.org/code/19651-background-video-css-->
+    <!---->
+    <!---->
+    <!---->
+
+
+</body>
+
+</html>
